@@ -191,7 +191,7 @@ int main()
                 printf("enter pos to place at: ");
                 scanf("%d", &usr);
                 printf("\n");
-                while(arr[usr]!='\0'){
+                while(arr[usr]!='\0' || usr>8 || usr<0){
                     printf("That place is already filled!! Please enter valid position\n");
                     scanf("%d", &usr);
                 }
@@ -204,7 +204,7 @@ int main()
                 printf("enter pos to place at: ");
                 scanf("%d", &usr);
                 printf("\n");
-                while(arr[usr]!='\0'){
+                while(arr[usr]!='\0' || usr>8 || usr<0){
                     printf("That place is already filled!! Please enter valid position\n");
                     scanf("%d", &usr);
                 }

@@ -2,12 +2,14 @@
 This repository consists of project tic.c which is based on the implementation of TIC-TAC-TOE Game.
 
 We know a Tic-Tac-Toe game looks like :
+```
       |  |   
   ____|__|____
       |  |
   ____|__|____
       |  |
       |  |
+```
 This game is based on 2 players , one plays as X and other as O
 Creating a game in C where both the players are human is an obvious approach.
 But what if we want to play it against a BOT.
